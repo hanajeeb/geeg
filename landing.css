@@ -1,0 +1,194 @@
+>container {
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.heading {
+    background-color: #a3d4ba;
+    height: max-content;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#h22 {
+    color: white;
+    margin-left: 2rem;
+}
+
+#home {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 4px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 4px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sign {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 4px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nba {
+    cursor: pointer;
+    display: flex;
+    margin-left: 75%;
+}
+
+#home:hover {
+    background-color: lightblue;
+    color: rgb(5, 5, 82);
+}
+
+#about:hover {
+    background-color: lightblue;
+    color: rgb(5, 5, 82);
+}
+
+#sign:hover {
+    background-color: lightblue;
+    color: rgb(5, 5, 82);
+}
+
+.bline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#geek {
+    color: #2f5435;
+    margin-right: 40%;
+}
+
+#imga {
+    width: 30%;
+    margin: 20px;
+}
+
+#exp {
+    text-decoration: none;
+    background-color: grey;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 10px; 
+}
+.course{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_DHJ{
+    display: flex;
+    justify-content: center;
+}
+.DSA{
+    border: 5px;
+    width: 175px;
+    display: block;
+    background: white;
+    border: 1px;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 10px rgba(40, 38, 38, 0.6);
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 70px;
+    cursor: pointer;
+}
+.HTML{
+    border: 5px;
+    width: 175px;
+    display: block;
+    background: white;
+    border: 1px;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 10px rgba(40, 38, 38, 0.6);
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 70px;
+    cursor: pointer;
+
+}
+.JAVA{
+    border: 5px;
+    width: 175px;
+    display: block;
+    background: white;
+    border: 1px;
+    box-sizing: border-box;
+    box-shadow:2px 5px 10px rgba(40, 38, 38, 0.6);
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.DSA:hover{
+    background-color: lightblue;
+}
+.HTML:hover{
+    background-color: lightblue;
+}
+.JAVA:hover{
+    background-color: lightblue;
+}
+.DSA h2{
+    text-align: center;
+}
+.HTML h2{
+    text-align: center;
+}
+.JAVA h2{
+    text-align: center;
+}
+.sup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.siab{
+    display: flex;
+    justify-content: center;
+}
+.forma{
+   margin-right: 40%;
+}
+form{
+    display: grid;
+    grid-column: auto;
+    grid-row: auto ;
+}
+form input{
+    border: 1px solid #777;
+    border-radius: 10px;
+   font-family: inherit; 
+   padding: 10px;
+   width: 95%;
+}
+form button{
+    height: auto;
+    width: 95%;
+}
+form button:hover{
+    background-color: #2f5435;
+}
